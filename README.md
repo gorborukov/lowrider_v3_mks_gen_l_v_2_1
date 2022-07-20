@@ -14,3 +14,7 @@ Wiring:
 | Z2 | E1 | Xmax |
 
 source https://docs.v1engineering.com/electronics/dual-lr/
+
+Steps configuration:
+
+see line 933 comment
