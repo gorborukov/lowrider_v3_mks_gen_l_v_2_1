@@ -929,8 +929,8 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT { 200, 200, 800 } // { 200, 200, 800, 200 } // { 80, 80, 400, 500 }
-
+#define DEFAULT_AXIS_STEPS_PER_UNIT { 160, 160, 3200 } // { 200, 200, 800, 200 } // { 80, 80, 400, 500 }
+// If TMC driver configured for 1/32: values of X & Y axis equals 160 and for 2mm/rotation Z screw value equals 3200. For different types of screws values must be recalculated. 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
